@@ -1,67 +1,10 @@
-body{
-    margin: 0;
-    padding: 0;
+@media (max-width:991px){
+    .sidebar{
+        background-color: rgb(255,255,255,0.15);
+        backdrop-filter: blur(10px);
+    }
     
 }
-html,body{
-    overflow: auto;
-    overflow-x: hidden;
-
-}
-.clear{
-    clear: both;
-}
-.logo{
-    width: 30%;
-    border-radius: 10%;
-
-}
-@media(max-width:576px){
-    .logo{
-        width: 10%;
-    }
-}
-.navcontainer{
-    height: 80px;
-}
-.p{
-    position: relative;
-    top: 10px;
-    font-family: cursive;
-    font-size: larger;
-
-}
-
-
-.logo{
-    display: flex;
-    align-items: center;
-}
-.logo img{
-    width: 30%;
-    border-radius: 20%;
-}
-.clicked{
-    color:rgb(13,110,253);
-}
-
-.img {
- background-image: url("backgroundhome.avif");
- height: 300px;
- background-position: center;
- background-size: cover;
- width: 100%;
- background-repeat: no-repeat;
-}
-.row2{
-    text-align: center;
-    position: relative;
-    top: 120px;
-   
-}
-.home {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 60px;
-    color: white;
-    font-weight: bold;
+nav{
+    background-color: black;
 }
