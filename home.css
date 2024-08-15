@@ -39,7 +39,6 @@ ul  a:hover::after{
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    
     justify-content: center;
     animation: img 20s  infinite ease-in-out;
 
@@ -170,7 +169,7 @@ color: rgb(243, 142, 60);
         height: 1.8em;
         font-family: "Caveat", cursive;
         width: 100%;
-        font-size: 8vw;
+        font-size: 20px;
     }
     .text-container div:nth-child(1) {
        
@@ -214,6 +213,31 @@ color: rgb(243, 142, 60);
     }
 }
 @media  (min-width: 577px) and (max-width:768px){
+    .section2{
+        height: 200px;
+    }
+    .text-container {
+        height: 1.8em;
+        font-family: "Caveat", cursive;
+        width: 100%;
+        font-size: 1vw;
+    }
+    .text-container div:nth-child(1) {
+       
+        padding: 0px 15px 0px 15px;
+    }
+    .text-container div:nth-child(2) {
+       
+        padding: 0px 15px 0px 15px;
+    }
+    .text-container div:nth-child(3) {
+       
+        padding: 0px 15px 0px 15px;
+    }
+    .text-container div:nth-child(4) {
+       
+        padding: 0px 15px 0px 15px;
+    }
     .img{
         height: 200px;
     }
@@ -240,7 +264,7 @@ color: rgb(243, 142, 60);
     }
 }
 
-@media  (min-width: 1024px) {
+/* @media  (min-width: 1024px) {
     .img{
         height: 300px;
     }
@@ -250,6 +274,6 @@ color: rgb(243, 142, 60);
     .sidebar{
         background-color: rgb(255,255,255,0.15);
         backdrop-filter: blur(10px);
-    }
+    } */
     
-}
+
