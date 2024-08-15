@@ -7,7 +7,7 @@ body,html{
 }
 
 nav{
-    background-color: black;
+    background-color:black;
 }
 .clear{
     clear: both;
@@ -231,6 +231,10 @@ color: rgb(243, 142, 60);
         width: 100%;
         font-size: 20px;
     }
+    .sidebar{
+        background-color: rgb(225,225,255,0.15);
+        backdrop-filter: blur(10px);
+    }
     .text-container div:nth-child(1) {
        
         padding: 0px 15px 0px 15px;
@@ -342,6 +346,10 @@ color: rgb(243, 142, 60);
     font-weight: 200;
     font-size: 15px;
     }
+    .sidebar{
+        background-color: rgb(225,225,255,0.15);
+        backdrop-filter: blur(10px);
+    }
     .heading h1{
         text-align: center;
         color: rgb(255, 157, 0);
@@ -382,6 +390,10 @@ color: rgb(243, 142, 60);
         font-family: "Caveat", cursive;
         width: 100%;
         font-size: 20px;
+    }
+    .sidebar{
+        background-color: rgb(225,225,255,0.15);
+        backdrop-filter: blur(10px);
     }
     .text-container div:nth-child(1) {
        
