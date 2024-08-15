@@ -1,13 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 body,html{
     overflow-x: hidden;
 }
-@media (max-width:991px){
-    .sidebar{
-        background-color: rgb(255,255,255,0.15);
-        backdrop-filter: blur(10px);
-    }
-    
-}
+
 nav{
     background-color: black;
 }
@@ -17,7 +15,6 @@ nav{
 
 .section2{
     background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url("gne.jpeg");
-    /* background-position: center; */
     width: 100%;
     height: 300px;
     position: relative;
@@ -26,37 +23,38 @@ nav{
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    
     justify-content: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation: img 20s  infinite ease-in-out;
 
 }
 
 @keyframes img{
     0%{
-        background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url("department1.jpeg");
+        background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("department1.jpeg");
     }
     25%{
-        background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url("gne.webp");
+        background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("gne.webp");
     }
     50%{
-        background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url("department.png");
+        background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("department.png");
     }
     75%{
-        background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url("gne.webp");
+        background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("gne.webp");
     }
     100%{
-        background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url("gne.jpeg");
+        background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("gne.jpeg");
     }
 }
 
 
 
 .text-container {
-    font-size: 2em;
     overflow: hidden;
     height: 1.5em; 
-    color: aliceblue;
+    font-family: "Caveat", cursive;
+    font-size: 3vw;
+    color:white;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -111,4 +109,12 @@ nav{
     .img{
         height: 300px;
     }
+}
+
+@media (max-width:991px){
+    .sidebar{
+        background-color: rgb(255,255,255,0.15);
+        backdrop-filter: blur(10px);
+    }
+    
 }
