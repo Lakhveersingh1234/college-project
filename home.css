@@ -201,7 +201,8 @@ color: rgb(243, 142, 60);
 /* SECTION5 */
 .section5{
     height: 400px;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     margin-top: 100px;
 }
 .rows img{
@@ -210,21 +211,23 @@ color: rgb(243, 142, 60);
 }
 .rows{
     margin-top: 60px;
+    text-align: center;
 }
 .rows1     {
     width: 25%;
     float: left;
-    text-align: center;
+    
 }
+    
 .rows2     {
     width: 25%;
     float: left;
-    text-align: center;
+   
 }
 .rows3     {
     width: 25%;
     float: left;
-    text-align: center;
+   
 }
 .rows4     {
     width: 25%;
@@ -233,57 +236,55 @@ color: rgb(243, 142, 60);
 .rows5     {
     width: 25%;
     float: left;
-    text-align: center;
+ 
 }
+
 .rows6     {
     width: 25%;
     float: left;
-    text-align: center;
+    
 }
 .rows7     {
     width: 25%;
     float: left;
-    text-align: center;
+    
 }
 .rows8     {
     width: 25%;
     float: left;
-    text-align: center;
+    
 }
 .rows9     {
     width: 25%;
     float: left;
-    text-align: center;
+   
 }
 .rows10    {
     width: 25%;
     float: left;
-    text-align: center;
+    
 }
 .rows11     {
     width: 25%;
     float: left;
-    text-align: center;
+    
 }
 .rows12     {
     width: 25%;
     float: left;
-    text-align: center;
 }
 .rows13     {
     width: 25%;
     float: left;
-    text-align: center;
 }
 .rows14     {
     width: 25%;
     float: left;
-    text-align: center;
 }
 .rows15     {
     width: 25%;
     float: left;
-    text-align: center;
+   
 }
 .borders h6{
     margin-top: 1rem;
@@ -296,8 +297,6 @@ color: rgb(243, 142, 60);
 }
 .btns{
     background-color:#0a58ca;
-    
-    /* background-color: rgb(131, 13, 241); */
     width: 180px;
     height: 40px;
     display: flex;
@@ -419,6 +418,8 @@ color: rgb(243, 142, 60);
         margin-right: auto;
     }
 
+
+
     /* SECTION5 */
 
 .rows{
@@ -442,7 +443,6 @@ color: rgb(243, 142, 60);
 }
 .rows4     {
     width: 50%;
-    text-align: center;
    
 }
 .rows5     {
@@ -501,6 +501,7 @@ color: rgb(243, 142, 60);
 }
 
 }
+
 /* TABLETES */
 
 @media  (min-width: 577px) and (max-width:768px){
@@ -782,6 +783,7 @@ color: rgb(243, 142, 60);
     }
     .rows4     {
         width: 33.3%;
+        
        
     }
     .rows5     {
@@ -994,17 +996,14 @@ color: rgb(243, 142, 60);
         .rows1     {
             width: 25%;
             float: left;
-            text-align: center;
         }
         .rows2     {
             width: 25%;
             float: left;
-            text-align: center;
         }
         .rows3     {
             width: 25%;
             float: left;
-            text-align: center;
         }
         .rows4     {
             width: 25%;
@@ -1013,56 +1012,47 @@ color: rgb(243, 142, 60);
         .rows5     {
             width: 25%;
             float: left;
-            text-align: center;
         }
         .rows6     {
             width: 25%;
             float: left;
-            text-align: center;
         }
         .rows7     {
             width: 25%;
             float: left;
-            text-align: center;
+    
         }
         .rows8     {
             width: 25%;
             float: left;
-            text-align: center;
+        
         }
         .rows9     {
             width: 25%;
             float: left;
-            text-align: center;
         }
         .rows10    {
             width: 25%;
             float: left;
-            text-align: center;
         }
         .rows11     {
             width: 25%;
             float: left;
-            text-align: center;
         }
         .rows12     {
             width: 25%;
             float: left;
-            text-align: center;
         }
         .rows13     {
             width: 25%;
             float: left;
-            text-align: center;
         }
         .rows14     {
             width: 25%;
             float: left;
-            text-align: center;
         }
         .rows15     {
             width: 25%;
             float: left;
-            text-align: center;
         }
 }
