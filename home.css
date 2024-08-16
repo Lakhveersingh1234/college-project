@@ -4,6 +4,7 @@ body{
 }
 body,html{
     overflow-x: hidden;
+    overflow: visible;
 }
 
 nav{
@@ -189,18 +190,6 @@ color: rgb(243, 142, 60);
 
 
 }
-/* .section4 .borders{
-    box-shadow: 2px 2px 34px rgb(223, 218, 218);
-    height: 570px;
-    padding: 21px;
-    margin: 30px;
-} */
-/* .section4 .borders img{
-    width: 100%;
-    height: 200px;
-    border-radius: 7px;
-} */
-
 .bt a{
     text-decoration: none;
     color: white;
@@ -218,6 +207,9 @@ color: rgb(243, 142, 60);
     margin-top: 20px;
     
     
+}
+.bt:hover{
+    transform: scale(1.1);
 }
 
 /* SECTION5 */
@@ -523,24 +515,23 @@ height: 500px;
         margin: auto;
         height: 400px;
     }
-     .box1{
-    width: 48%;
+     .row1{
+    width: 50%;
     float: left;
     
     }
-     .box2{
-    width: 52%;
+     .row2{
+    width: 50%;
     float: left;
-    border-radius: 20px 3px 20px 3px;
+    /* border-radius: 20px 3px 20px 3px; */
     
     
     }
-    .p{
-        color: white;
+    .section3   p{
+    color: rgb(243, 142, 60);
     font-family: "New Amsterdam", sans-serif;
     font-weight: 400;
     font-size: large;
-    color: rgb(243, 142, 60);
     
     
     }
@@ -591,6 +582,11 @@ height: 500px;
     
     
     }
+    .section4 h1{
+        text-align: center;
+        color: rgb(255, 157, 0);
+        margin-bottom: 10px;
+    }
     .section4 .borders{
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
         height: 570px;
@@ -621,4 +617,45 @@ height: 500px;
         
         
     }
+}
+@media(min-width:1200px){
+    .row1{
+        width: 50%;
+        float: left;
+        
+        }
+         .row2{
+        width: 50%;
+        float: left;
+        
+        
+        }
+        .borders img{
+            height: 200px;
+            width: 100%;
+        }
+        .section4 h1{
+            text-align: center;
+            color: rgb(255, 157, 0);
+            margin-bottom: 10px;
+        }
+        .bt{
+            margin-top: 40px;
+        }
+        .section3 img{
+            height: 300px;
+            margin-top: 12px;
+        }
+        .section3   p{
+            color: rgb(243, 142, 60);
+            font-family: "New Amsterdam", sans-serif;
+            font-weight: 400;
+            font-size: large;
+            
+            
+            }
+
+        .section4 .borders{
+            box-shadow: 2px 2px 34px rgb(223, 218, 218);
+        }
 }
