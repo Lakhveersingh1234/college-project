@@ -285,22 +285,14 @@ height: 500px;
             color: rgb(255, 157, 0);
             margin-bottom: 10px;
         }
-    .section4box1{
-        width: 100%;
-        margin-top: 40px;   
-    }
+  
     .borders img{
         width: 250px;
     }
     .borders{
         padding: 12px;
     margin: 6px;
-   
     text-align: center;
-    }
-    .section4box2{
-        width: 100%;
-        margin-top: 40px;
     }
     .section4 .borders{
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
