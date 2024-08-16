@@ -204,6 +204,10 @@ color: rgb(243, 142, 60);
     width: 100%;
     margin-top: 100px;
 }
+.rows img{
+    border: 3px solid black;
+    border-radius: 10px;
+}
 .rows{
     margin-top: 60px;
 }
