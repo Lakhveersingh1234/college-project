@@ -392,7 +392,7 @@ color: rgb(243, 142, 60);
     .borders{
         padding: 12px;
     margin: 6px;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 1rem;
     
     }
@@ -451,9 +451,7 @@ color: rgb(243, 142, 60);
     width: 50%;
    
 }
-.rows6 .btns{
-    margin-top: 38px;
-}
+
 .rows7     {
     width: 50%;
    
@@ -470,9 +468,7 @@ color: rgb(243, 142, 60);
      width: 50%;
    
 }
-.rows10 .btns{
-    margin-top: 38px;
-}
+
 .rows11     {
      width: 50%;
    
@@ -598,7 +594,7 @@ color: rgb(243, 142, 60);
     }
 
         /* SECTION5 */
-.section5 ,.borders{
+.section5 .borders{
     text-align: center;
 }
 .rows{
@@ -750,7 +746,7 @@ color: rgb(243, 142, 60);
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
        
     }
-    .section5 ,.borders{
+    .section5 .borders{
         text-align: center;
     }
     .rows{
