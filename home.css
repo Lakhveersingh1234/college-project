@@ -10,9 +10,9 @@ body,html{
 nav{
     background-color:black;
 }
-.clear{
+/* .clear{
     clear: both;
-}
+} */
 ul  a::after{
     content: '';
     width: 0%;
@@ -200,7 +200,7 @@ color: rgb(243, 142, 60);
 
 /* SECTION5 */
 .section5{
-    height: 400px;
+    height: 280vh;
     width: 90%;
     margin: auto;
     margin-top: 100px;
@@ -309,6 +309,81 @@ color: rgb(243, 142, 60);
 }
 .btns:hover{
     transform: scale(1.1);
+}
+
+/* FOOTER */
+.footers{
+    width: 100%;
+    height: 250px;
+    background-color: #45526e;
+    
+
+}
+.footerow{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    color: white;
+}
+.footerrow1{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.footerrow2{
+    width: 25%;
+    float: left;
+
+}
+.footerrow3{
+    width: 50%;
+    float: left;
+   
+}
+.footerborder{
+    margin: 10px;
+    padding: 21px;
+}
+.footerrow1 img{
+    width: 90%;
+    height: 150px;
+    border-radius: 12px;
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.contact i {
+    display: flex;
+    float: left;
+    position: relative;
+    top: 5px;
+}
+.contact p {
+    position: relative;
+    left: 12px;
+}
+.link {
+    background-color: #45526e;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.icon {
+    display: inline;
+    margin: 12px;
+    color: white;
+}
+.icon i{
+    font-size: xx-large;
+    box-shadow: 2px 2px 10px rgb(93,92,92,0.8),-2px -2px 10px rgb(0,0,0,0.8),-2px 2px 10px rgb(0,0,0,0.8);
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 9px;
+    width: 50px;
+    height: 50px;
 }
 
 
