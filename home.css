@@ -176,19 +176,6 @@ color: rgb(243, 142, 60);
     font-weight: border;
 
 }
-.section4box1{
-    width: 50%;
-    float: left;
-
-    
-}
-
-.section4box2{
-    width: 50%;
-    float: left;
-
-
-}
 .bt a{
     text-decoration: none;
     color: white;
@@ -215,10 +202,117 @@ color: rgb(243, 142, 60);
 .section5{
     height: 400px;
     width: 100%;
+    margin-top: 100px;
 }
-.section5box{
-height: 500px;
+.rows{
+    margin-top: 60px;
 }
+.rows1     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows2     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows3     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows4     {
+    width: 25%;
+    float: left;
+}
+.rows5     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows6     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows7     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows8     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows9     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows10    {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows11     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows12     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows13     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows14     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.rows15     {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.borders h6{
+    margin-top: 1rem;
+}
+.btns a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: 400; 
+}
+.btns{
+    background-color:#0a58ca;
+    
+    /* background-color: rgb(131, 13, 241); */
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-top: 20px;
+    
+    
+}
+.btns:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* RESPONSIVE DESIGN */
+
+/* MOBILES */
 
 @media  (min-width: 0px) and (max-width:576px){
     .section2{
@@ -293,6 +387,7 @@ height: 500px;
         padding: 12px;
     margin: 6px;
     text-align: center;
+    margin-bottom: 1rem;
     }
     .section4 .borders{
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
@@ -312,7 +407,85 @@ height: 500px;
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* SECTION5 */
+
+.rows{
+    margin-bottom: 2rem;
 }
+.rows1     {
+    width: 50%;
+    
+}
+.rows2     {
+    width: 50%;
+    
+}
+.rows3     {
+    width: 50%;
+  
+
+}
+.rows4     {
+    width: 50%;
+   
+}
+.rows5     {
+    width: 50%;
+   
+}
+.rows6     {
+    width: 50%;
+   
+}
+.rows7     {
+    width: 50%;
+   
+}
+.rows8     {
+    width: 50%;
+   
+}
+.rows9     {
+    width: 50%;
+  
+}
+.rows10    {
+     width: 50%;
+   
+}
+.rows11     {
+     width: 50%;
+   
+}
+.rows12     {
+    width: 50%;
+   
+}
+.rows13     {
+     width: 50%;
+   
+}
+.rows14     {
+     width: 50%;
+  
+}
+.rows15     {
+     width: 50%;
+ 
+   
+}
+.rows img{
+    width: 100%;
+    height: 170px;
+}
+.btns{
+    width: 100%;
+}
+
+}
+/* TABLETES */
+
 @media  (min-width: 577px) and (max-width:768px){
     .section2{
         height: 258px;
@@ -390,10 +563,9 @@ height: 500px;
    
     .section4 .borders{
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
-        height: 650px;
         margin-bottom: 24px;
         margin: 0px;
-
+       
 
     
     }
@@ -405,8 +577,87 @@ height: 500px;
     .section4 .row2 .bt {
         margin-top: 71px;
     }
+
+        /* SECTION5 */
+.section5 ,.borders{
+    text-align: center;
+}
+.rows{
+    margin-bottom: 2rem;
+}
+.rows1     {
+    width: 50%;
+    
+}
+.rows2     {
+    width: 50%;
+    
+}
+.rows3     {
+    width: 50%;
+  
+
+}
+.rows4     {
+    width: 50%;
    
 }
+.rows5     {
+    width: 50%;
+   
+}
+.rows6     {
+    width: 50%;
+   
+}
+.rows7     {
+    width: 50%;
+   
+}
+.rows8     {
+    width: 50%;
+   
+}
+.rows9     {
+    width: 50%;
+  
+}
+.rows10    {
+     width: 50%;
+   
+}
+.rows11     {
+     width: 50%;
+   
+}
+.rows12     {
+    width: 50%;
+   
+}
+.rows13     {
+     width: 50%;
+   
+}
+.rows14     {
+     width: 50%;
+  
+}
+.rows15     {
+     width: 50%;
+ 
+   
+}
+.section4 .borders img{
+    
+    height: 270px;
+}
+.btns{
+    margin-left: auto;
+    margin-right: auto;
+}
+   
+}
+
 @media  (min-width: 769px) and (max-width:992px){
     .section2{
         height: 336px;
@@ -477,9 +728,7 @@ height: 500px;
     }
     .section4 .borders{
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
-        /* height: 720px; */
-        /* margin-bottom: 24px; */
-        /* padding: 40px; */
+       
     }
         .section4 .borders img {
             width: 100%;
@@ -487,6 +736,14 @@ height: 500px;
             border-radius: 7px;
         
     }
+    .btns{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* TABLETS */
+
 @media  (min-width: 993px) and (max-width:1200px){
     .row1{
         width: 50%;
@@ -520,14 +777,20 @@ height: 500px;
             font-family: "New Amsterdam", sans-serif;
             font-weight: 400;
             font-size: large;
-            
-            
             }
 
         .section4 .borders{
             box-shadow: 2px 2px 34px rgb(223, 218, 218);
         }
+        .btns{
+            margin-left: auto;
+            margin-right: auto;
+        }
 }
+
+
+/*DESKTOPS */
+
 @media(min-width:1200px){
     .row1{
         width: 50%;
@@ -567,5 +830,9 @@ height: 500px;
 
         .section4 .borders{
             box-shadow: 2px 2px 34px rgb(223, 218, 218);
+        }
+        .btns{
+            margin-left: auto;
+            margin-right: auto;
         }
 }
