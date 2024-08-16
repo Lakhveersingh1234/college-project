@@ -305,6 +305,7 @@ height: 500px;
         padding: 12px;
     margin: 6px;
     box-shadow: 2px 2px 34px rgb(223, 218, 218);
+    text-align: center;
     }
     .section4box2{
         width: 100%;
@@ -320,6 +321,10 @@ height: 500px;
     line-height: 1.7rem;
     margin-bottom: 1rem;
     font-size: 17px;
+    }
+    .bt {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 @media  (min-width: 577px) and (max-width:768px){
@@ -403,10 +408,13 @@ height: 500px;
         margin-bottom: 24px;
         margin: 0px;
 
+
     
     }
     .bt {
         margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .section4 .row2 .bt {
         margin-top: 71px;
