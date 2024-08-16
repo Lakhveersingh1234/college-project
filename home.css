@@ -453,6 +453,9 @@ color: rgb(243, 142, 60);
     width: 50%;
    
 }
+.rows6 .btns{
+    margin-top: 38px;
+}
 
 .rows7     {
     width: 50%;
@@ -469,6 +472,9 @@ color: rgb(243, 142, 60);
 .rows10    {
      width: 50%;
    
+}
+.rows10 .btns{
+    margin-top: 38px;
 }
 
 .rows11     {
