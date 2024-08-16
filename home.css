@@ -167,7 +167,7 @@ color: rgb(243, 142, 60);
 .section4{
     width: 75%;
     margin: auto;
-    height: 600px;
+    /* height: 600px; */
 }
 .section4 h4 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -203,14 +203,12 @@ color: rgb(243, 142, 60);
     height: 280vh;
     width: 90%;
     margin: auto;
-    margin-top: 100px;
 }
 .rows img{
     border: 3px solid black;
     border-radius: 10px;
 }
 .rows{
-    margin-top: 60px;
     text-align: center;
 }
 .rows1     {
@@ -444,10 +442,9 @@ color: rgb(243, 142, 60);
     }
     .section4{
         width: 90%;
-        height: 1064px;
+       height: 160vh;
 
         margin: auto;
-        margin-top: 40px;
     }
     .row{
         width: 100%;
@@ -496,7 +493,9 @@ color: rgb(243, 142, 60);
 
 
     /* SECTION5 */
-
+    .section5{
+        height: 400vh;
+    }
 .rows{
     margin-bottom: 2rem;
 }
@@ -653,6 +652,7 @@ color: rgb(243, 142, 60);
     .section4{
         width: 90%;
         margin: auto;
+        height: 130vh;
     }
   
     .section4 .borders img{
@@ -678,6 +678,9 @@ color: rgb(243, 142, 60);
     }
 
         /* SECTION5 */
+        .section5{
+            height: 420vh;
+        }
 .section5 .borders{
     text-align: center;
 }
@@ -816,6 +819,7 @@ color: rgb(243, 142, 60);
     .section4{
         width: 90%;
         margin: auto;
+        height: 126vh;
     }
     .section4 .row1{
         width: 50%; 
@@ -836,6 +840,9 @@ color: rgb(243, 142, 60);
     .section4 .borders{
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
        
+    }
+    .section5{
+        height: 326vh;
     }
     .section5 .borders{
         text-align: center;
