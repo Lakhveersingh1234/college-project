@@ -477,7 +477,7 @@ height: 500px;
     }
     .section4 .borders{
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
-        height: 720px;
+        /* height: 720px; */
         /* margin-bottom: 24px; */
         /* padding: 40px; */
     }
@@ -487,14 +487,6 @@ height: 500px;
             border-radius: 7px;
         
     }
-    .section4box2 .borders 
-    {
-        height: 531px;
-    }
-    .bca{
-       font-size: 15px;
-    }
-}
 @media  (min-width: 993px) and (max-width:1200px){
     .row1{
         width: 50%;
