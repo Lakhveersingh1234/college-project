@@ -740,6 +740,74 @@ color: rgb(243, 142, 60);
             border-radius: 7px;
         
     }
+    .section5 ,.borders{
+        text-align: center;
+    }
+    .rows{
+        margin-bottom: 2rem;
+    }
+    .rows1     {
+        width: 33.3%;
+        
+    }
+    .rows2     {
+        width: 33.3%;
+        
+    }
+    .rows3     {
+        width: 33.3%;
+      
+    
+    }
+    .rows4     {
+        width: 33.3%;
+       
+    }
+    .rows5     {
+        width: 33.3%;
+       
+    }
+    .rows6     {
+        width: 33.3%;
+       
+    }
+    .rows7     {
+        width: 33.3%;
+       
+    }
+    .rows8     {
+        width: 33.3%;
+       
+    }
+    .rows9     {
+        width: 33.3%;
+      
+    }
+    .rows10    {
+         width: 33.3%;
+       
+    }
+    .rows11     {
+         width: 33.3%;
+       
+    }
+    .rows12     {
+        width: 33.3%;
+       
+    }
+    .rows13     {
+         width: 33.3%;
+       
+    }
+    .rows14     {
+         width: 33.3%;
+      
+    }
+    .rows15     {
+         width: 33.3%;
+     
+       
+    }
     .btns{
         margin-left: auto;
         margin-right: auto;
@@ -786,6 +854,69 @@ color: rgb(243, 142, 60);
         .section4 .borders{
             box-shadow: 2px 2px 34px rgb(223, 218, 218);
         }
+        .rows1     {
+            width: 33.3%;
+            
+        }
+        .rows2     {
+            width: 33.3%;
+            
+        }
+        .rows3     {
+            width: 33.3%;
+          
+        
+        }
+        .rows4     {
+            width: 33.3%;
+           
+        }
+        .rows5     {
+            width: 33.3%;
+           
+        }
+        .rows6     {
+            width: 33.3%;
+           
+        }
+        .rows7     {
+            width: 33.3%;
+           
+        }
+        .rows8     {
+            width: 33.3%;
+           
+        }
+        .rows9     {
+            width: 33.3%;
+          
+        }
+        .rows10    {
+             width: 33.3%;
+           
+        }
+        .rows11     {
+             width: 33.3%;
+           
+        }
+        .rows12     {
+            width: 33.3%;
+           
+        }
+        .rows13     {
+             width: 33.3%;
+           
+        }
+        .rows14     {
+             width: 33.3%;
+          
+        }
+        .rows15     {
+             width: 33.3%;
+         
+           
+        }
+      
         .btns{
             margin-left: auto;
             margin-right: auto;
@@ -838,5 +969,79 @@ color: rgb(243, 142, 60);
         .btns{
             margin-left: auto;
             margin-right: auto;
+        }
+        .rows1     {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows2     {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows3     {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows4     {
+            width: 25%;
+            float: left;
+        }
+        .rows5     {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows6     {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows7     {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows8     {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows9     {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows10    {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows11     {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows12     {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows13     {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows14     {
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .rows15     {
+            width: 25%;
+            float: left;
+            text-align: center;
         }
 }
