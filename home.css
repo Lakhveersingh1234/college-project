@@ -379,6 +379,7 @@ color: rgb(243, 142, 60);
         width: 100%;
         margin: auto;
         margin-top: 40px;
+        text-align: center;
     }
     .section4 h1{
             text-align: center;
@@ -744,8 +745,8 @@ color: rgb(243, 142, 60);
     .section4  .row2 .borders {
         height: 535px;
     }
-    .section4  .row2 .bt {
-        margin-top: 14%;
+    .section4  .row2 .btns {
+        margin-top: 3%;
     }
     
     .section4 .row2{
