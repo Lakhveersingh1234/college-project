@@ -370,6 +370,8 @@ color: rgb(243, 142, 60);
     }
     .section4{
         width: 90%;
+        height: 1064px;
+
         margin: auto;
         margin-top: 40px;
     }
@@ -392,6 +394,10 @@ color: rgb(243, 142, 60);
     margin: 6px;
     text-align: center;
     margin-bottom: 1rem;
+    
+    }
+    .rows .borders{
+        height: 350px;
     }
     .section4 .borders{
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
@@ -430,6 +436,9 @@ color: rgb(243, 142, 60);
   
 
 }
+.rows3 .btns{
+    margin-top: 38px;
+}
 .rows4     {
     width: 50%;
    
@@ -441,6 +450,9 @@ color: rgb(243, 142, 60);
 .rows6     {
     width: 50%;
    
+}
+.rows6 .btns{
+    margin-top: 38px;
 }
 .rows7     {
     width: 50%;
@@ -457,6 +469,9 @@ color: rgb(243, 142, 60);
 .rows10    {
      width: 50%;
    
+}
+.rows10 .btns{
+    margin-top: 38px;
 }
 .rows11     {
      width: 50%;
@@ -651,9 +666,10 @@ color: rgb(243, 142, 60);
  
    
 }
-.section4 .borders img{
-    
-    height: 270px;
+.rows img{
+    width: 100%;
+    height: 200px;
+
 }
 .btns{
     margin-left: auto;
@@ -734,17 +750,17 @@ color: rgb(243, 142, 60);
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
        
     }
-        .section4 .borders img {
-            width: 100%;
-            height: 200px;
-            border-radius: 7px;
-        
-    }
     .section5 ,.borders{
         text-align: center;
     }
     .rows{
         margin-bottom: 2rem;
+        
+    }
+    .rows img{
+        width: 100%;
+        height: 200px;
+
     }
     .rows1     {
         width: 33.3%;
