@@ -160,7 +160,6 @@ color: rgb(243, 142, 60);
 .section3img{
     width: 100%;
     border-radius: 12px;
-    box-shadow: 2px 2px 34px rgb(223, 218, 218);
 
 }
 
@@ -296,12 +295,15 @@ height: 500px;
     .borders{
         padding: 12px;
     margin: 6px;
-    box-shadow: 2px 2px 34px rgb(223, 218, 218);
+   
     text-align: center;
     }
     .section4box2{
         width: 100%;
         margin-top: 40px;
+    }
+    .section4 .borders{
+        box-shadow: 2px 2px 34px rgb(223, 218, 218);
     }
   
     .section4box2 p{
