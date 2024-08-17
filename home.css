@@ -10,9 +10,9 @@ body,html{
 nav{
     background-color:black;
 }
-/* .clear{
+.clear{
     clear: both;
-} */
+}
 ul  a::after{
     content: '';
     width: 0%;
@@ -124,7 +124,7 @@ ul  a:hover::after{
 .section3box{
     width: 90%;
     margin: auto;
-    height: 400px;
+    /* height: 400px; */
 }
  .box1{
 width: 50%;
@@ -200,7 +200,7 @@ color: rgb(243, 142, 60);
 
 /* SECTION5 */
 .section5{
-    height: 280vh;
+    /* height: 280vh; */
     width: 90%;
     margin: auto;
 }
@@ -312,14 +312,14 @@ color: rgb(243, 142, 60);
 /* FOOTER */
 .footers{
     width: 100%;
-    height: 250px;
+    /* height: 250px; */
     background-color: #45526e;
     
 
 }
 .footerow{
     width: 90%;
-    height: 250px;
+    /* height: 250px; */
     margin: auto;
     color: white;
 }
@@ -442,7 +442,7 @@ color: rgb(243, 142, 60);
     }
     .section4{
         width: 90%;
-       height: 160vh;
+       /* height: 160vh; */
 
         margin: auto;
     }
@@ -469,7 +469,7 @@ color: rgb(243, 142, 60);
     
     }
     .rows .borders{
-        height: 350px;
+        /* height: 350px; */
     }
     .section4 .borders{
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
@@ -494,7 +494,7 @@ color: rgb(243, 142, 60);
 
     /* SECTION5 */
     .section5{
-        height: 400vh;
+        /* height: 400vh; */
     }
 .rows{
     margin-bottom: 2rem;
@@ -652,7 +652,7 @@ color: rgb(243, 142, 60);
     .section4{
         width: 90%;
         margin: auto;
-        height: 130vh;
+        /* height: 130vh; */
     }
   
     .section4 .borders img{
@@ -679,7 +679,7 @@ color: rgb(243, 142, 60);
 
         /* SECTION5 */
         .section5{
-            height: 420vh;
+            /* height: 420vh; */
         }
 .section5 .borders{
     text-align: center;
@@ -819,7 +819,7 @@ color: rgb(243, 142, 60);
     .section4{
         width: 90%;
         margin: auto;
-        height: 126vh;
+        /* height: 126vh; */
     }
     .section4 .row1{
         width: 50%; 
