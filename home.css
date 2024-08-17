@@ -312,14 +312,13 @@ color: rgb(243, 142, 60);
 /* FOOTER */
 .footers{
     width: 100%;
-    /* height: 250px; */
     background-color: #45526e;
     
 
 }
 .footerow{
     width: 90%;
-    /* height: 250px; */
+
     margin: auto;
     color: white;
 }
@@ -366,7 +365,6 @@ color: rgb(243, 142, 60);
 .link {
     background-color: #45526e;
     width: 100%;
-    height: 80px;
     text-align: center;
 }
 .icon {
@@ -580,6 +578,25 @@ color: rgb(243, 142, 60);
     width: 100%;
 }
 
+ /* FOOTER */
+
+.footerrow1{
+    width: 100%;
+  }
+.footerrow2{
+    width: 100%;
+}
+.footerrow3{
+    width: 100%;
+
+   
+}
+.link {
+   
+    padding: 20PX;
+  
+}
+
 }
 
 /* TABLETES */
@@ -758,6 +775,26 @@ color: rgb(243, 142, 60);
     margin-left: auto;
     margin-right: auto;
 }
+
+
+ /* FOOTER */
+
+.footerrow1{
+    width: 50%;
+  }
+.footerrow2{
+    width: 50%;
+}
+.footerrow3{
+    width: 100%;
+
+   
+}
+.link {
+   
+    padding: 20PX;
+  
+}
    
 }
 
@@ -841,9 +878,6 @@ color: rgb(243, 142, 60);
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
        
     }
-    .section5{
-        height: 326vh;
-    }
     .section5 .borders{
         text-align: center;
     }
@@ -923,6 +957,14 @@ color: rgb(243, 142, 60);
         margin-left: auto;
         margin-right: auto;
     }
+    
+ /* FOOTER */
+
+.link {
+   
+    padding: 20PX;
+  
+}
 }
 
 /* TABLETS */
@@ -1032,6 +1074,13 @@ color: rgb(243, 142, 60);
             margin-left: auto;
             margin-right: auto;
         }
+
+        /* FOOTER */
+        .link {
+   
+    padding: 20PX;
+  
+}
 }
 
 
@@ -1143,4 +1192,11 @@ color: rgb(243, 142, 60);
             width: 25%;
             float: left;
         }
+
+             /* FOOTER */
+        .link {
+   
+    padding: 20PX;
+  
+}
 }
