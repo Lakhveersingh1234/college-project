@@ -469,7 +469,7 @@ color: rgb(243, 142, 60);
     
     }
     .rows .borders{
-        /* height: 350px; */
+        height: 350px;
     }
     .section4 .borders{
         box-shadow: 2px 2px 34px rgb(223, 218, 218);
