@@ -1,17 +1,17 @@
 body {
     margin: 0;
     padding: 0;
-    color: rgb(0, 30, 67);
-    font-family: "Poppins", sans-serif;
 }
 
 body,
 html {
     overflow-x: hidden;
-
-    /* overflow: visible; */
+    overflow: visible;
 }
-
+.sidebar {
+    background-color: rgb(225, 225, 255, 0.15);
+    backdrop-filter: blur(10px);
+}
 nav {
     background-color: black;
 }
@@ -26,7 +26,7 @@ ul a::after {
     height: 3px;
     margin: auto;
     display: block;
-    background: tomato;
+    background: #FA394A;
     transition: all .5s;
 
 
@@ -36,6 +36,7 @@ ul a:hover::after {
     width: 100%;
 
 }
+
 
 /* SECTION2 */
 
@@ -62,6 +63,8 @@ ul a:hover::after {
 
 
 }
+
+/* SECTION3 */
 
 .section3{
     width: 90%;
@@ -282,6 +285,14 @@ textarea{
 
 @media (min-width: 0px) and (max-width:576px) {
 
+    /* SECTION3 */
+    .box1 {
+        width: 100%;
+    }
+    
+    .box2 {
+        width: 100%;  
+    }
 
     /* FOOTER */
 
@@ -317,6 +328,16 @@ textarea{
 
 @media (min-width: 577px) and (max-width:768px) {
 
+  /* SECTION3 */
+  .box1 {
+    width: 100%;
+}
+
+.box2 {
+    width: 100%;  
+}
+
+
     /* FOOTER */
 
     .footerrow1 {
@@ -348,6 +369,15 @@ textarea{
 }
 
 @media (min-width: 769px) and (max-width:992px) {
+
+     /* SECTION3 */
+     .box1 {
+        width: 100%;
+    }
+    
+    .box2 {
+        width: 100%;  
+    }
 
 
     /* FOOTER */

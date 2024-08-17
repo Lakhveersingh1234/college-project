@@ -625,22 +625,19 @@ h3 span {
         font-weight: 200;
         font-size: 15px;
     }
-
-
     .apply1 {
         width: 100%;
-        
     }
     
     .apply2 {
         width: 100%;
-        /* float: left; */
     }
-    
-    
-    
+    .apply1 .borders img{
+      height: 270px;
+    }
 
-
+    
+    
     .section4 {
         width: 90%;
         margin: auto;
@@ -698,8 +695,8 @@ h3 span {
     }
 
 
-
     /* SECTION5 */
+
     .rows {
         margin-bottom: 2rem;
     }
@@ -716,7 +713,6 @@ h3 span {
 
     .rows3 {
         width: 50%;
-
 
     }
 
