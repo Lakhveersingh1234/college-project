@@ -33,6 +33,7 @@ ul  a:hover::after{
 .section2{
     background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url("gne.jpeg");
     width: 100%;
+    margin-bottom: 25px;
     height: 300px;
     position: relative;
     overflow: hidden;
@@ -113,8 +114,8 @@ ul  a:hover::after{
 
 /* SECTION3 */
 .section3{
-    width: 100%;
-    margin-top: 45px;
+    width: 90%;
+    margin: auto;
 }
 .heading h1{
     text-align: center;
@@ -439,8 +440,6 @@ color: rgb(243, 142, 60);
     }
     .section4{
         width: 90%;
-       /* height: 160vh; */
-
         margin: auto;
     }
     .row{
@@ -456,12 +455,11 @@ color: rgb(243, 142, 60);
         }
   
     .borders img{
-        width: 250px;
+        width: 100%;
     }
     .borders{
         padding: 12px;
     margin: 6px;
-    /* text-align: center; */
     margin-bottom: 1rem;
     
     }
