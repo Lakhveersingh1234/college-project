@@ -490,9 +490,6 @@ color: rgb(243, 142, 60);
 
 
     /* SECTION5 */
-    .section5{
-        /* height: 400vh; */
-    }
 .rows{
     margin-bottom: 2rem;
 }
@@ -589,6 +586,11 @@ color: rgb(243, 142, 60);
     width: 100%;
 
    
+}
+.footerrow1 img{
+width: 50%;
+height: 100px;
+border-radius: 7px;
 }
 .link {
    
@@ -788,6 +790,11 @@ color: rgb(243, 142, 60);
     width: 100%;
 
    
+}
+.footerrow1 img{
+width: 70%;
+height: 100px;
+border-radius: 7px;
 }
 .link {
    
