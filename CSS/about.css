@@ -38,7 +38,7 @@ nav{
     height: 250px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-image: linear-gradient(rgb(0, 30, 67, 0.92), rgb(0, 30, 67, 0.92)), url("IMG/bg-3.jpg");
+    background-image: linear-gradient(rgb(0, 30, 67, 0.92), rgb(0, 30, 67, 0.92)), url("bg-3.jpg");
     
 }
 
