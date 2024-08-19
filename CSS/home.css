@@ -36,7 +36,7 @@ ul a:hover::after {
 
 
 .section2 {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url("/IMG/gne.jpeg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url("IMG/gne.jpeg");
     width: 100%;
     margin-bottom: 25px;
     height: 300px;
@@ -53,23 +53,23 @@ ul a:hover::after {
 
 @keyframes img {
     0% {
-        background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("/IMG/department1.jpeg");
+        background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("IMG/department1.jpeg");
     }
 
     25% {
-        background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("/IMG/gne.webp");
+        background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("IMG/gne.webp");
     }
 
     50% {
-        background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("/IMG/department.png");
+        background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("IMG/department.png");
     }
 
     75% {
-        background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("/IMG/gne.webp");
+        background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("IMG/gne.webp");
     }
 
     100% {
-        background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("/IMG/gne.jpeg");
+        background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("IMG/gne.jpeg");
     }
 }
 
